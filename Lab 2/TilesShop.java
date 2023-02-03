@@ -8,7 +8,7 @@ public class TilesShop {
         Scanner in = new Scanner(System.in);
 
         TilesInfo tile = new TilesInfo();
-        BranchesInfo branch = new BranchesInfo();
+        // BranchesInfo branch = new BranchesInfo();
 
         System.out.print("\nHow many tiles info you gonna add? ");
         n = in.nextInt();
@@ -20,12 +20,12 @@ public class TilesShop {
     }
 }
 
-class BranchesInfo {
+// class BranchesInfo {
     
-    void createBranch() {
+//     void createBranch() {
         
-    }
-}
+//     }
+// }
 
 class TilesInfo 
 {
@@ -34,9 +34,9 @@ class TilesInfo
     String id, design, size;
     ArrayList<String> tileID = new ArrayList<String>();
     ArrayList<String> tileDesign = new ArrayList<String>();
-    ArrayList<String> tileSize = new ArrayList<String>();
-    ArrayList<String> tileType = new ArrayList<String>();
-    ArrayList<String> brandID = new ArrayList<String>();
+    // ArrayList<String> tileSize = new ArrayList<String>();
+    // ArrayList<String> tileType = new ArrayList<String>();
+    // ArrayList<String> brandID = new ArrayList<String>();
 
     Scanner in = new Scanner(System.in);
 
